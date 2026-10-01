@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weekly class Schedule</title>
+</head>
+<body>
+    
+<h2>Name: Brant Yosef L Hinayon</H2>
+<h3>section: DAAIT 1</h3>
+
+<table borders="1" cellpadding="8" cellsapcing="0" allign="center">
+<thead>
+<tr>
+<th>Date / Day</th>
+<th>Time</th>
+<th>subject</th>
+<th>room</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monday</td>
+<td>8:00 am - 10:00am</td>
+<td>webdev</td>
+<td>Room 521</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>10:00 am - 12:00pm<td/>
+<td>webdev</td>
+<td>Room 530</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>10:00 am - 12:00 pm</td>
+<td>Math 101</td>
+<td>Room 514</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>10:00 am - 12:00 pm</td>
+<td>comprog 1</td>
+<td>Room 521</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>10:00 am - 12:00pm</td>
+<td>Socio</td>
+<td>Room 514</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>10:00 am - 12:00pm<?td>
+<td>Incom</td>
+<td>Room 536</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+
+               
