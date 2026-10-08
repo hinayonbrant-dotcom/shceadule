@@ -1,4 +1,4 @@
-#include <stdio.size>
+#include <stdio.h>
 
 int main() {
     // Variable declarations
@@ -34,7 +34,7 @@ int main() {
     printf("Enter cash payment: ");
     scanf("%f", &payment);
 
-    // Calculations using assignment statements and arithmetic operators
+    // Calculations
     subtotal1 = price1 * quantity1;
     subtotal2 = price2 * quantity2;
     subtotal3 = price3 * quantity3;
@@ -44,13 +44,13 @@ int main() {
 
     // Displaying the Receipt
     printf("\n----------- RECEIPT ------------\n");
-    printf("Item 1 Subtotal: \u20b1%.2f\n", subtotal1);
-    printf("Item 2 Subtotal: \u20b1%.2f\n", subtotal2);
-    printf("Item 3 Subtotal: \u20b1%.2f\n", subtotal3);
+    printf("Item 1 Subtotal: P%.2f\n", subtotal1);
+    printf("Item 2 Subtotal: P%.2f\n", subtotal2);
+    printf("Item 3 Subtotal: P%.2f\n", subtotal3);
     printf("--------------------------------\n");
-    printf("Total Amount:    \u20b1%.2f\n", total);
-    printf("Cash Payment:    \u20b1%.2f\n", payment);
-    printf("Change:          \u20b1%.2f\n", change);
+    printf("Total Amount:    P%.2f\n", total);
+    printf("Cash Payment:    P%.2f\n", payment);
+    printf("Change:          P%.2f\n", change);
     printf("================================\n");
     printf("   Thank you for shopping!\n");
     printf("================================\n");
